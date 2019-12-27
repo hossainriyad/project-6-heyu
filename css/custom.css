@@ -1,0 +1,366 @@
+/*=================================
+  "LATO" GOOGLE FONT EMBEDED CSS
+=================================*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
+
+
+/*=====================
+   GLOBAL CSS
+======================*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+}
+li {
+    list-style: none;
+}
+a, a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.heading h1 {
+    font-size:60px;
+    font-weight:900;
+    color:#363636;
+    padding-bottom:30px;
+}
+.heading h1 span {
+    color:#cc0033;
+}
+.heading p {
+    font-size: 18px;
+    color:#808080;
+}
+
+
+/*========================
+    HEADER CSS SECTION
+=========================*/
+.header-section {
+    background:url('../images/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-section .row {
+    min-height:100vh;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color:#fff;
+    padding: 5px;
+    margin:auto 20px;
+}
+.header-section .nav-link {
+    position: relative;
+}
+.header-section .nav-link:before, .header-section .nav-link:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 2px;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.header-section .nav-link:hover::before {
+    width:100%;
+}
+.header-section .nav-link:after {
+    top:auto;
+    left:auto;
+    bottom:0;
+    right: 0;
+}
+.header-section .nav-link:hover::after {
+    width:100%;
+}
+.banner-section {
+    padding-top:40px;
+}
+.banner-content {
+    padding-top: 60px;
+}
+.banner-content h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.banner-content p {
+    font-size: 20px;
+    color:#fff;
+    padding:30px 0 80px;
+}
+.banner-content span {
+    font-weight:900;
+}
+.cta-btn {
+    display: inline-block;
+    background: #fff;
+    color:#363636;
+    font-size: 18px;
+    font-weight:700;
+    padding:16px 40px;
+    border-radius:30px;
+    transition: all 0.4s ease-in-out;
+}
+.cta-btn:hover {
+    color: #cc0033;
+    box-shadow: 6px 6px 4px 2px #cc0033;
+}
+.banner-image {
+    width: 50%;
+    margin-left:auto !important;
+}
+/*========================
+    ABOUT CSS SECTION
+=========================*/
+.about-section {
+    padding:60px 0px 100px;
+    border-bottom:1px solid #e0e0e0;
+}
+.about-section .about-top.row, .about-section .about-bottom.row {
+    align-items: center;
+}
+
+/*========================
+    TESTIMONIAL  CSS SECTION
+=========================*/
+.testimonial-section {
+    padding:70px 0 180px;
+}
+.testimonial-content-section {
+    padding-top:70px;
+}
+.testimonial-box {
+    position: relative;
+    min-height: 300px;
+    transition: all 0.5s ease-in-out;
+}
+.testimonial-box:hover {
+    min-height:320px;
+}
+.testimonial-box .testimonial-content {
+    padding: 25px;
+    border:1px solid #e0e0e0;
+    border-radius:5px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.testimonial-box:hover .testimonial-content {
+    border: none;
+    box-shadow: 0 0 15px 10px rgba(0,0,0,0.05);
+    margin-top: -20px !important;
+}
+.testimonial-content:after {
+    content:'';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    transform: rotate(45deg);
+    border-bottom:1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    bottom:-10px;
+    left:25px;
+}
+.testimonial-content p {
+    font-size:16px;
+    font-style: italic;
+    line-height:1.7;
+    color:#808080;
+    padding-bottom: 15px;
+}
+.testimonial-content a {
+    font-size:16px;
+    font-weight:700;
+    color:#e73332;
+}
+.client-info {
+    position: absolute;
+    bottom: 0;
+}
+.client-info .media {
+    align-items: center;
+}
+.client-info .media img {
+    width:auto;
+}
+.client-info .media-body h4 {
+    font-size: 18px;
+    color:#363636;
+    font-weight:700;
+}
+.client-info .media-body p {
+    font-size:16px;
+    color:#667386;
+}
+
+
+/*========================
+    FEATURE  CSS SECTION
+=========================*/
+.feature-section {
+    padding:100px 0px 129px;
+    background:linear-gradient(#d90647, #eb402c);
+    position: relative;
+}
+.feature-section .app-mobile {
+    position: absolute;
+    left:50%;
+    top:-16%;
+    transform: translate(-50%); 
+}
+.feature-section .play-circle {
+    position: absolute;
+    top:50%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.feature-content .t-right {
+    text-align: right;
+}
+.feature-content:first-child {
+    padding-bottom:50px;
+}
+.feature-content .media-body h5{
+    font-size: 24px;
+    font-weight:900;
+    color:#fff;
+    padding-bottom: 15px;
+}
+.feature-content .media-body p{
+    font-size:16px;
+    color:#fff;
+    line-height:26px;
+}
+
+/*========================
+    SUBSCRIBE CSS SECTION
+=========================*/
+.subscribe-section {
+    padding:170px 0px 80px;
+}
+.subscriber-form {
+    max-width:560px;
+    margin:50px auto 0;
+}
+.subscriber-form input[type='email'] {
+    width: 100%;
+    background:#f8f8f8;
+    color:#808080;
+    border:1px solid #f8f8f8;
+    border-radius:30px;
+    font-size:16px;
+    padding: 12px 160px 12px 15px;
+}
+.subscriber-form input[type='submit'] {
+    margin-left: -156px;
+    font-size:16px;
+    font-weight:700;
+    color:#fff;
+    background:#cc0033;
+    border:1px solid #cc0033;
+    border-radius:30px;
+    padding: 12px 40px;
+}
+input:focus {
+    outline:none;
+}
+
+
+/*========================
+    APP CSS SECTION
+=========================*/
+.app-section {
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    padding:80px 0;
+}
+.app-content img {
+    margin:auto;
+}
+.app-content .heading h1 {
+    padding-top:20px;
+}
+.app-content .heading p {
+    padding-bottom: 50px;
+}
+
+
+/*========================
+  FOOTER CSS SECTION
+=========================*/
+.footer-section {
+    padding:40px 0;
+}
+.footer-section .row {
+    align-items: center;
+}
+.footer-section .navbar {
+    padding:0;  
+}
+.footer-section .navbar-light .navbar-nav .nav-link {
+    color: #363636;
+    font-size:18px;
+    padding:0 20px;
+    text-transform: uppercase;
+    transition:all 0.4s ease-in-out;
+}
+.footer-section .navbar-light .navbar-nav .nav-link:hover {
+    color:#cc0033;
+    background:#e0e0e0;
+    border-radius:5px;
+}
+.language-section {
+    float: right;
+    margin-right: 30px;
+}
+.language-section .btn {
+    padding: 12px 100px 12px 20px;
+    border-radius: 30px;
+}
+.language-section .btn-secondary {
+    color: #363636;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.language-section .dropdown-toggle::after {
+    position: absolute;
+    right: 20px;
+    color: #363636;
+    top: 22px;
+    font-size:22px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #363636;
+    background-color:#f8f8f8;
+    border-color: #f8f8f8;
+}
+.language-section .dropdown-menu {
+    width: 207px !important;
+    top: -5px !important;
+    border-radius:10px !important;
+}
+.language-section .dropdown-item {
+    font-size: 16px;
+    color:#363636;
+    text-transform: uppercase;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background: #e0e0e0;
+}
+

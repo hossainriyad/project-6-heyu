@@ -1,0 +1,346 @@
+/*Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 374.98px) {
+  .menu {
+        background-color:#cc0033;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .banner-content {
+        text-align: center;
+        padding-top:0px;
+    }
+    .banner-content h1 {
+        font-size:50px;
+    }  
+    .banner-content p {
+        padding: 20px 0 30px;
+    }
+    .banner-image {
+        margin: auto;
+        margin-top:20px;
+    }
+    
+    .about-top, .about-bottom {
+        text-align: center;
+    }
+    .about-section .heading h1 {
+        font-size: 35px;
+    }
+    .about-section .heading p {
+        font-size: 16px;
+    }
+    .about-section .about-bottom {
+        padding-top: 50px;
+    }
+    .about-section .about-image {
+        padding:20px 0;
+    }
+    .testimonial-box:hover {
+        min-height: 340px;
+    }
+    .testimonial-box {
+        margin-bottom: 50px;
+        min-height: 320px;
+    }
+    .testimonial-section {
+        padding-bottom:70px;
+    }
+    .testimonial-section .heading h1 {
+        font-size: 35px;
+    }
+    .subscribe-section {
+        padding-top:80px;
+    }
+    .feature-section .margintop50 {
+        margin-top: 50px;
+    }
+    .subscriber-form input[type='email'] {
+        padding-right:30px;
+    }
+    .subscriber-form input[type='submit']{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .subscribe-section .heading h1 {
+        font-size: 40px;
+    }
+   .app-content .heading h1 {
+        font-size:40px;
+    }
+    .app-content .heading p {
+        font-size:16px;
+    } 
+    .language-section {
+        display: none;
+    }
+    .menubar {
+        background-color:#f8f8f8;
+        position: absolute;
+        left: 0;
+        top: -140px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        border-radius:5px;
+    }
+}
+
+/*Extra small devices (portrait phones, 375px and up)*/
+@media (min-width: 375px) and (max-width: 575.98px) {
+.menu {
+        background-color:#cc0033;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .banner-content {
+        text-align: center;
+        padding-top:0px;
+    }
+    .banner-content h1 {
+        font-size:50px;
+    }  
+    .banner-content p {
+        padding: 20px 0 30px;
+    }
+    .banner-image {
+        margin: auto;
+        margin-top:20px;
+    }
+    .about-top, .about-bottom {
+        text-align: center;
+    }
+    .about-section .heading h1 {
+        font-size: 40px;
+    }
+    .about-section .about-bottom {
+        padding-top: 50px;
+    }
+    .about-section .about-image {
+        padding:20px 0;
+    }
+    .testimonial-box {
+        margin-bottom: 50px;
+    }
+    .testimonial-section {
+        padding-bottom:70px;
+    }
+    .testimonial-section .heading h1 {
+        font-size: 40px;
+    }
+    .feature-section .margintop50 {
+        margin-top: 50px;
+    }
+    .subscribe-section {
+        padding-top:80px;
+    }
+    .subscriber-form input[type='submit'] {
+        margin-left: -136px;
+        padding:12px 30px;
+    }
+    .subscribe-section .heading h1 {
+        font-size: 40px;
+    }
+    .app-content .heading h1 {
+        font-size:40px;
+    }
+    .footer-section .row {
+        align-items: flex-start;
+    }
+    .language-section {
+        display: none;
+    }
+    .menubar {
+        background-color:#f8f8f8;
+        position: absolute;
+        left: 0;
+        top: -140px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        border-radius:5px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu {
+        background-color:#cc0033;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    .banner-content {
+        text-align: center;
+        padding-top:0;
+    }
+    .banner-content h1 {
+        font-size:50px;
+    }  
+    .banner-content p {
+        padding: 20px 0 30px;
+    }
+    .banner-image {
+        margin: auto;
+        margin-top:20px;
+    }
+    .about-top, .about-bottom {
+        text-align: center;
+    }
+    .about-section .row {
+        justify-content: center;
+    }
+    .about-section .heading h1 {
+        font-size: 50px;
+    }
+    .about-section .about-bottom {
+        padding-top: 50px;
+    }
+    .about-section .about-image {
+        padding:20px 0;
+    }
+    .testimonial-box:hover {
+        min-height: 290px;
+    }
+    .testimonial-box {
+        min-height: 270px;
+        margin-bottom: 50px;
+    }
+    .testimonial-section {
+        padding-bottom:70px;
+    }
+    .feature-section .row {
+        justify-content: center;
+    }
+    .feature-section .margintop50 {
+        margin-top: 50px;
+    }
+    .subscribe-section {
+        padding-top:80px;
+    }
+    .subscribe-section .heading h1 {
+        font-size: 40px;
+    }
+    .app-content .heading h1 {
+        font-size:55px;
+    }
+    .footer-section .row {
+        align-items: flex-start;
+    }
+    .menubar {
+        background-color:#f8f8f8;
+        position: absolute;
+        left: 0;
+        top: -140px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        border-radius:5px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .menu {
+        background-color:#cc0033;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+    }
+    
+    .banner-content {
+        padding-top:0px;
+    }
+    .about-section .heading h1 {
+        font-size: 40px;
+    }
+    .about-section .heading p {
+        font-size: 16px;
+    }
+    .testimonial-box:hover {
+        min-height:400px;
+    }
+    .testimonial-box {
+        min-height:380px;
+    }
+    .testimonial-section {
+        padding-bottom:70px;
+    }
+    .subscribe-section {
+        padding-top:80px;
+    }
+    .subscribe-section .heading h1 {
+        font-size: 50px;
+    }
+    .footer-section .row {
+        align-items: flex-start;
+    }
+    .menubar {
+        background-color:#f8f8f8;
+        position: absolute;
+        left: 0;
+        top: -140px;
+        z-index: 100;
+        height: 100%;
+        width: 100%;
+        display: table;
+        text-align: center;
+        border-radius:5px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .banner-content h1 {
+        max-width: 370px;
+    }
+    .testimonial-box:hover {
+        min-height:340px;
+    }
+    .testimonial-box {
+        min-height:320px;
+    }
+    .testimonial-section {
+        padding-bottom:70px;
+    }
+    .subscribe-section {
+        padding-top:80px;
+    }
+} 
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .banner-content h1 {
+        max-width: 370px;
+    }
+}
